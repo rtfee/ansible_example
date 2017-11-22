@@ -6,6 +6,6 @@
     max_clients: 200
   tasks:
   - name: ensure apache is at the latest version
-    yum: name=httpd state=latest
+    yum: name=httpd1 state=latest
   - name: ensure apache is running (and enable it at boot)
     service: name=httpd state=started enabled=yes
