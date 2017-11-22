@@ -1,6 +1,5 @@
 ---
-- hosts: localhost
-  connection: local
+- hosts: local
   vars:
     http_port: 80
     max_clients: 200
