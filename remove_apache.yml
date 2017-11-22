@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+  - name: remove apache
+    yum: name=httpd state=absent
